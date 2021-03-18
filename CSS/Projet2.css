@@ -1,0 +1,468 @@
+body {
+    background: radial-gradient(#3873A6, #161C40) fixed;
+    color: #ffffff;
+}
+
+h1 {
+    color: #C729F2;
+    text-align: center;
+}
+
+
+.head{
+    width: auto;
+    height: auto;
+    background-color: #161C40;
+    padding: 10px;
+
+}
+/*Slide page d'accueil*/
+
+.slides {
+    width: auto;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container {
+    width: 50%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*Fin slide pour page d'accueil*/
+
+
+/*Slides page suivante*/
+
+.slides2 {
+    width: 60%;
+    height: 30%;
+    margin-left: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    width: 60%;
+    height: 30%;
+    margin-left: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Fin slides pages suivantes*/
+
+
+/*Articles*/
+
+.Articles {
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    margin-left: 1%;
+    float: left;
+    border: 1px solid black;
+}
+
+.textes {
+    width: 70%;
+    height: 40%;
+    margin-left: 2%;
+    display: inline-flex;
+}
+
+.images {
+    width: 20%;
+    height: 10%;
+}
+
+
+/*Fin slide articles*/
+
+
+/*images pour slides page d'accuei*/
+
+.ChainedEchoes {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Neon {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Scorn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Halo {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Justdance {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.wrc9 {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.zelda {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Minecraft {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.F1 {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Captain {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*Fin images*/
+
+.Body {
+    width: 70%;
+    height: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Menu déroulant*/
+
+.MenuDeroulant {
+    display: inline-flex;
+}
+
+
+/*Div1*/
+
+.menu {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+.first {
+    float: left;
+    overflow: hidden;
+}
+
+.first,
+.firsty {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 4px 6px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu a:hover,
+.first:hover .firsty {
+    background-color: #1747A6;
+}
+
+.first-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.first-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.first-content a:hover {
+    background-color: #ddd;
+}
+
+.first:hover .first-content {
+    display: block;
+}
+
+
+/*Fin Div1*/
+
+
+/*Div2*/
+
+.menu2 {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu2 a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+.second {
+    float: left;
+    overflow: hidden;
+}
+
+.second,
+.secondy {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 4px 6px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu2 a:hover,
+.second:hover .secondy {
+    background-color: #1747A6;
+}
+
+.second-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.second-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.second-content a:hover {
+    background-color: #ddd;
+}
+
+.second:hover .second-content {
+    display: block;
+}
+
+
+/*Fin Div2*/
+
+
+/*Div3*/
+
+.menu3 {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu3 a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+.third {
+    float: left;
+    overflow: hidden;
+}
+
+.third,
+.thirdy {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 4px 6px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu3 a:hover,
+.third:hover .thirdy {
+    background-color: #1747A6;
+}
+
+.third-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.third-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.third-content a:hover {
+    background-color: #ddd;
+}
+
+.third:hover .third-content {
+    display: block
+}
+
+
+/*Fin Div3*/
+
+
+/*Début Div4*/
+
+.menu4 {
+    overflow: hidden;
+    background-color: black;
+}
+
+.menu4 a {
+    float: left;
+    font-size: 16px;
+    color: #1C618C;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+.four {
+    float: left;
+    overflow: hidden;
+}
+
+.four,
+.fourty {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 4px 6px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu4 a:hover,
+.four:hover .fourty {
+    background-color: #1747A6;
+}
+
+.four-content {
+    display: none;
+    position: absolute;
+    background-color: #165873;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.four-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.four-content a:hover {
+    background-color: #ddd;
+}
+
+.four:hover .four-content {
+    display: block
+}
+
+/*Fin Div4*/
+
+
+/*Button search*/
+
+.recherche {
+    display: inline-flex;
+    float: right;
+    font-size: 16px;
+}
